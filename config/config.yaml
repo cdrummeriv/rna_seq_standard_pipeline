@@ -1,4 +1,9 @@
-samples: config/SraRunTable_fraction_rna.csv
+# Local Runs
+## Relative paths
+samples: "/config/SraRunTable_Samples.csv"
+#comparison: "config/comparison.csv"
+
+## Absolute paths
 star_index: /home/hayerk/data/index/GRCh38.p13/GENCODE_GRCh38.p13
 salmon_index: /home/hayerk/data/index/gencode/gencode.v30.transcripts_salmon
 blacklist: /home/hayerk/data/index/hg38-blacklist.v2.bed
